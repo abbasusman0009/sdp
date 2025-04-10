@@ -19,7 +19,7 @@ export const Hero = () => {
 
         </div>
         <div className="hero__image">
-          <img src={frame} alt="Hero" className="max-w-md" />
+          <img src={frame} alt="Hero" className="max-w-lg" />
         </div>
       </div>
     </div>

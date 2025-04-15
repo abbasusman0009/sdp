@@ -24,7 +24,7 @@ export const Header = () => {
           ))}
         </ul>
       </div>
-      <Button className='bg-[#E99050]  text-[#F5FFFA] rounded-md p-2 w-[166px]'>Become A Member</Button>
+      <Button className='bg-[#E99050]  text-[#F5FFFA] rounded-md p-2'>Become A Member</Button>
     </div>
   )
 }

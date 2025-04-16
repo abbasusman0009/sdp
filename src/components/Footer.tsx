@@ -3,86 +3,78 @@ import logo from '../assets/image/sdplogo.png';
 
 export const Footer = () => {
   return (
-    <footer className="relative w-full mb-20">
+    <footer className="relative w-full bg-[#F5FFFA] pt-14">
       <div className="w-full px-8 mx-auto max-w-7xl">
-        <div className="grid justify-between grid-cols-1 gap-4 md:grid-cols-2 ">
-          <h5 className="mb-6 text-xl font-semibold text-slate-800">
-            SDP Arewa Youth <br /> Mobilization Movement
-          </h5>
-          <p>Empowering the youth of Arewa through political engagement, community service, and democratic participation.</p>
-          <div className="grid justify-between grid-cols-3 gap-4">
+        <div className="grid justify-between  grid-cols-1 gap-4 md:grid-cols-2 ">
+          <div className="space-y-1">
+            <h5 className="text-xl font-semibold text-slate-800">
+              <span className='text-[#13A05E]'>S</span><span className='text-[#DD7D38]'>D</span><span className='text-[#13A05E]'>P</span> Arewa Youth <br /> Mobilization Movement<br />
+            </h5>
+            <p className="text-sm">Empowering the youth of Arewa through<br /> political engagement, community service, <br />and democratic participation.</p>
+          </div>
+          <div className="grid justify-between grid-cols-3 gap-4 capitalize">
             <ul>
-              <p className="block mb-1 text-base font-semibold  text-slate-800">
-                Product
+              <p className="block mb-1 text-base font-semibold text-slate-800">
+                quick links
               </p>
               <li>
                 <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  Overview
+                  join SDP
                 </a>
               </li>
               <li>
                 <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  Features
+                  about SDP
                 </a>
               </li>
               <li>
                 <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  Solutions
+                  become a volunteer
                 </a>
               </li>
               <li>
                 <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  Tutorials
+                  election centre
+                </a>
+              </li>
+              <li>
+                <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
+                  community forum
                 </a>
               </li>
             </ul>
             <ul>
-              <p className="block mb-1 text-base font-semibold text-slate-800">
-                Company
+              <p className="block mb-1 text-base font-semibold text-slate-800 capitalize">
+                resources
               </p>
               <li>
                 <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  About us
+                  party constitution
                 </a>
               </li>
               <li>
                 <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  Careers
+                  party policies
                 </a>
               </li>
               <li>
                 <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  Press
-                </a>
-              </li>
-              <li>
-                <a href="#" className="block text-slate-700 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  News
+                  news & updates
                 </a>
               </li>
             </ul>
             <ul>
-              <p className="block mb-1 text-base font-semibold text-slate-800">
-                Resource
+              <p className="block mb-1 text-base font-semibold text-slate-800 capitalize">
+                contact us
               </p>
               <li>
                 <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  Blog
+                  contact@sdparewayouths.org
                 </a>
               </li>
               <li>
                 <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  Newsletter
-                </a>
-              </li>
-              <li>
-                <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  Events
-                </a>
-              </li>
-              <li>
-                <a href="#" className="block text-slate-600 py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-                  Help center
+                  +234800000000
                 </a>
               </li>
             </ul>
@@ -90,8 +82,8 @@ export const Footer = () => {
         </div>
         <div className="flex flex-col items-center justify-center w-full py-4 mt-12 border-t border-slate-200 md:flex-row md:justify-between">
           <p className="block mb-4 text-sm text-center text-slate-500 md:mb-0">
-            Copyright © 2024
-            <a href="https://material-tailwind.com/">Material Tailwind</a>. All
+            © 2025
+            <a href="https://material-tailwind.com/">SDP Arewa Youths Mobilization Movement.</a>. All
             Rights Reserved.
           </p>
           <div className="flex gap-4 text-slate-600 sm:justify-center">

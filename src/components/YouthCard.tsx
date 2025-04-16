@@ -8,7 +8,7 @@ export const YouthCard = () => {
         <img src={frame} alt="Youth Card" />
       </div>
       <div className='flex items-center space-x-2 ml-4 '>
-        <p className='bg-green-100 p-2 text-[#0E874E]'>Category</p>
+        <p className='bg-green-100 p-2 rounded-sm text-[#0E874E]'>Category</p>
         <p className='text-sm'>5 min read</p>
       </div>
       <div className="p-4">

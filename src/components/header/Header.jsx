@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import sdpLogo from '../../assets//image/sdplogo.png'
 import { Button } from "@material-tailwind/react";
 const menu = [
@@ -19,7 +20,7 @@ export const Header = () => {
         <ul className='flex space-x-8 text-[16px]'>
           {menu.map((item, index) => (
             <li key={index} className='text-xltext-gray-700 hover:text-gray-900'>
-              <a className={item.active == 'true' ? 'text-[#F3A30E]' : ''} href={item.href}>{item.name}</a>
+              <NavLink className={item.active == 'true' ? 'text-[#F3A30E]' : ''} to={item.href}>{item.name}</NavLink>
             </li>
           ))}
         </ul>

@@ -3,11 +3,11 @@ import frame from '../assets/image/Frame 39.png'
 
 export const YouthCard = () => {
   return (
-    <div className="relative flex flex-col my-6 bg-white rounded-lg w-96 font-inter">
+    <div className="relative flex flex-col my-6 bg-white rounded-lg w-full sm:w-80 lg:w-96 font-inter">
       <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
         <img src={frame} alt="Youth Card" />
       </div>
-      <div className='flex items-center space-x-2 ml-4 '>
+      <div className='flex items-center space-x-2 ml-4'>
         <p className='bg-green-100 p-2 rounded-sm text-[#0E874E]'>Category</p>
         <p className='text-sm'>5 min read</p>
       </div>

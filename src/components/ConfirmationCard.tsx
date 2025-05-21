@@ -1,19 +1,32 @@
-import React from 'react';
-
 export const ConfirmationCard = ({ formData }) => {
   return (
-    <div className="bg-[#F5FFFA] border-dashed border-[#0E874E] grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center items-center shadow-sm border rounded-lg w-full sm:w-[490px] h-auto p-6">
-      <div className="space-y-8">
-        <p>Name:</p>
-        <p>Membership ID:</p>
-        <p>Membership Type:</p>
-        <p>Registration Date:</p>
+    <div className="space-y-8">
+      <div className="text-center">
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">Registration Successful!</h2>
+        <p className="text-green-600">Your membership details are below</p>
       </div>
-      <div className="space-y-8 self-start sm:self-end">
-        <p>{formData.firstName} {formData.lastName}</p>
-        <p>SDY-368141</p>
-        <p>Standard</p>
-        <p>24/03/2025</p>
+
+      <div className="bg-green-50 border border-dashed border-green-500 rounded-lg p-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="space-y-4">
+            <p className="text-sm font-medium text-gray-500">Name:</p>
+            <p className="text-sm font-medium text-gray-500">Membership ID:</p>
+            <p className="text-sm font-medium text-gray-500">Membership Type:</p>
+            <p className="text-sm font-medium text-gray-500">Registration Date:</p>
+          </div>
+          <div className="space-y-4">
+            <p className="text-sm font-medium text-gray-900">{formData.firstName} {formData.lastName}</p>
+            <p className="text-sm font-medium text-gray-900">{formData.membershipId}</p>
+            <p className="text-sm font-medium text-gray-900">Standard</p>
+            <p className="text-sm font-medium text-gray-900">{formData.registrationDate}</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="pt-6 border-t border-gray-200">
+        <p className="text-sm text-gray-500 text-center">
+          Thank you for registering. Your membership card will be sent to your email.
+        </p>
       </div>
     </div>
   );

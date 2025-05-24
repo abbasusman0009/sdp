@@ -96,7 +96,7 @@ export const Steppers = () => {
   const handleSubmit = async () => {
     try {
       const id = generateMembershipId();
-      const response = await fetch('/api/submit', {
+      const response = await fetch('http://localhost:5000/api/members', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
